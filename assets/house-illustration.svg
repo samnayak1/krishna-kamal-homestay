@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" width="900" height="1000" role="img" aria-labelledby="title desc">
+  <title id="title">Krishna Kamala Heritage — the entrance porch</title>
+  <desc id="desc">An illustration of the entrance to Krishna Kamala Heritage homestay: a red gabled porch roof on two red brick columns, brick jaali lattice walls, a carved mask on the column, the house signboard, and semicircular steps over a chequered tiled courtyard.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fc4e0"/>
+      <stop offset=".6" stop-color="#d6e6ee"/>
+      <stop offset="1" stop-color="#f3ead9"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset=".25" stop-color="#fdf1d6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fdf1d6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="soffit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a4a30"/>
+      <stop offset="1" stop-color="#b8714c"/>
+    </linearGradient>
+    <linearGradient id="roofRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8483a"/>
+      <stop offset="1" stop-color="#a5352b"/>
+    </linearGradient>
+    <linearGradient id="column" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9764c"/>
+      <stop offset=".55" stop-color="#e48a5d"/>
+      <stop offset="1" stop-color="#b85b38"/>
+    </linearGradient>
+    <linearGradient id="doorway" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c1a14"/>
+      <stop offset="1" stop-color="#4a2c20"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6ec"/>
+      <stop offset="1" stop-color="#e4dccd"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1d12" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#3a1d12" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- laterite brick courses -->
+    <pattern id="brick" width="56" height="24" patternUnits="userSpaceOnUse">
+      <rect width="56" height="24" fill="#a2563a"/>
+      <rect x="1" y="1" width="54" height="10" rx="1" fill="#b9663f"/>
+      <rect x="-27" y="13" width="54" height="10" rx="1" fill="#ad5d3b"/>
+      <rect x="29" y="13" width="54" height="10" rx="1" fill="#b4623e"/>
+      <rect x="9" y="3" width="20" height="2" fill="#cf7d52" opacity=".45"/>
+      <rect x="35" y="16" width="14" height="2" fill="#c9764b" opacity=".4"/>
+    </pattern>
+    <pattern id="brickShade" width="56" height="24" patternUnits="userSpaceOnUse">
+      <rect width="56" height="24" fill="#7c3f2a"/>
+      <rect x="1" y="1" width="54" height="10" rx="1" fill="#8f4a31"/>
+      <rect x="-27" y="13" width="54" height="10" rx="1" fill="#87452e"/>
+      <rect x="29" y="13" width="54" height="10" rx="1" fill="#8c4830"/>
+    </pattern>
+    <!-- column brick: tighter, brighter -->
+    <pattern id="colBrick" width="60" height="22" patternUnits="userSpaceOnUse">
+      <rect width="60" height="22" fill="url(#column)"/>
+      <rect y="10" width="60" height="2" fill="#a24e2f" opacity=".7"/>
+      <rect y="21" width="60" height="1.5" fill="#a24e2f" opacity=".7"/>
+    </pattern>
+    <!-- jaali: brick lattice with square openings -->
+    <pattern id="jaali" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect width="44" height="44" fill="#8a4630"/>
+      <rect x="3" y="3" width="16" height="16" fill="#1f120d"/>
+      <rect x="25" y="25" width="16" height="16" fill="#1f120d"/>
+      <rect x="25" y="3" width="16" height="16" fill="#9c5136"/>
+      <rect x="3" y="25" width="16" height="16" fill="#9c5136"/>
+      <rect x="5" y="5" width="6" height="6" fill="#f5e7c8" opacity=".55"/>
+    </pattern>
+    <!-- red-yellow chequered paving -->
+    <pattern id="paving" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="skewX(-28) scale(1 .5)">
+      <rect width="60" height="60" fill="#e8c56a"/>
+      <rect width="30" height="30" fill="#c95b3c"/>
+      <rect x="30" y="30" width="30" height="30" fill="#c95b3c"/>
+      <path d="M0 0h60v60H0z" fill="none" stroke="#f3e3c0" stroke-width="2"/>
+    </pattern>
+    <!-- porch floor tile -->
+    <pattern id="tile" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="scale(1 .45)">
+      <rect width="34" height="34" fill="#9aa3a7"/>
+      <path d="M17 4 30 17 17 30 4 17Z" fill="#b9c1c3"/>
+      <circle cx="17" cy="17" r="4" fill="#7c868b"/>
+    </pattern>
+    <!-- ribbed metal roofing -->
+    <pattern id="ribs" width="14" height="10" patternUnits="userSpaceOnUse">
+      <rect width="14" height="10" fill="url(#roofRed)"/>
+      <rect width="3" height="10" fill="#8f2c24" opacity=".55"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect width="900" height="1000"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- sky, sun -->
+    <rect width="900" height="1000" fill="url(#sky)"/>
+    <circle cx="520" cy="70" r="220" fill="url(#sun)"/>
+    <g stroke="#fff8e8" stroke-width="3" stroke-linecap="round" opacity=".55">
+      <path d="M520 70 300 330"/>
+      <path d="M520 70 640 300"/>
+      <path d="M520 70 760 210"/>
+    </g>
+
+    <!-- birds -->
+    <g fill="none" stroke="#5a4a40" stroke-width="2.4" stroke-linecap="round">
+      <path d="M720 92q8-8 16 0q8-8 16 0"/>
+      <path d="M770 128q6-6 12 0q6-6 12 0"/>
+    </g>
+
+    <!-- background trees & palm -->
+    <g>
+      <path d="M0 360c30-70 90-90 130-70 30-50 100-50 130 0v120H0Z" fill="#6f9468"/>
+      <path d="M640 340c40-60 120-70 160-30 40-20 100 0 100 40v110H640Z" fill="#7aa071"/>
+      <path d="M690 380c30-40 90-40 120-10 30-10 90 10 90 40v90H690Z" fill="#5f875a"/>
+      <path d="M95 300c2-70 6-130 4-190" stroke="#7a6a52" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <g fill="#5d8a55">
+        <path d="M99 112c-40-6-80 10-104 34 34-14 70-18 104-20Z"/>
+        <path d="M99 112c36-14 76-10 104 10-36-4-72-2-104 4Z"/>
+        <path d="M99 112c-20-30-54-46-88-48 30 12 58 30 80 54Z"/>
+        <path d="M99 112c16-32 46-52 82-58-26 16-50 36-70 64Z"/>
+        <path d="M99 112c-6 30-24 60-50 80 18-26 32-54 40-84Z"/>
+      </g>
+      <!-- water tank on the far roof -->
+      <rect x="132" y="252" width="104" height="96" fill="url(#brick)"/>
+      <rect x="128" y="246" width="112" height="10" fill="#8e4a31"/>
+      <rect x="150" y="200" width="44" height="54" rx="8" fill="#2f3a44"/>
+      <rect x="146" y="196" width="52" height="10" rx="4" fill="#3d4954"/>
+      <path d="M200 254V150" stroke="#55606a" stroke-width="3"/>
+    </g>
+
+    <!-- side wings: brick walls under low red roofs -->
+    <g>
+      <rect x="-10" y="372" width="300" height="400" fill="url(#brick)"/>
+      <rect x="610" y="372" width="300" height="400" fill="url(#brick)"/>
+      <!-- left jaali window panel -->
+      <rect x="0" y="470" width="132" height="220" fill="url(#jaali)"/>
+      <!-- right jaali wall -->
+      <rect x="680" y="440" width="176" height="220" fill="url(#jaali)"/>
+      <!-- low wing roofs -->
+      <path d="M-20 340h330l-20 40H-20Z" fill="url(#ribs)"/>
+      <path d="M-20 378h312" stroke="#7d241d" stroke-width="5"/>
+      <path d="M590 340h330v40H610Z" fill="url(#ribs)"/>
+      <path d="M608 378h312" stroke="#7d241d" stroke-width="5"/>
+      <rect x="-10" y="380" width="300" height="34" fill="url(#shade)"/>
+      <rect x="610" y="380" width="300" height="34" fill="url(#shade)"/>
+    </g>
+
+    <!-- signboard on the left wing -->
+    <g>
+      <rect x="18" y="404" width="210" height="66" rx="4" fill="#1d2b55" stroke="#c9a14e" stroke-width="3"/>
+      <text x="123" y="434" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="23" fill="#f6d778">Krishna Kamala</text>
+      <text x="123" y="458" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="4" fill="#f4ede0">HERITAGE</text>
+    </g>
+
+    <!-- porch: back wall -->
+    <g>
+      <rect x="250" y="360" width="400" height="380" fill="url(#brickShade)"/>
+      <!-- doorway -->
+      <rect x="372" y="470" width="128" height="250" fill="#5a3426"/>
+      <rect x="382" y="480" width="108" height="240" fill="url(#doorway)"/>
+      <rect x="396" y="500" width="80" height="58" fill="#e9eef0" opacity=".85"/>
+      <rect x="396" y="560" width="80" height="44" fill="#d4dade" opacity=".5"/>
+      <!-- back jaali beside door -->
+      <rect x="522" y="470" width="96" height="176" fill="url(#jaali)" opacity=".95"/>
+      <!-- shoe rack -->
+      <g stroke="#3b3f45" stroke-width="3">
+        <path d="M520 660h52M520 680h52M520 700h52M520 720h52M522 650v74M570 650v74"/>
+      </g>
+      <!-- wall lamp + cctv -->
+      <rect x="292" y="446" width="14" height="22" rx="4" fill="#efe6d4"/>
+      <path d="M440 400v36" stroke="#e8dfcd" stroke-width="3"/>
+      <rect x="430" y="434" width="22" height="12" rx="3" fill="#ece5d6"/>
+    </g>
+
+    <!-- porch roof: soffit with rafters, red fascia -->
+    <g>
+      <path d="M150 382 450 196 750 382Z" fill="url(#soffit)"/>
+      <g stroke="#6b3420" stroke-width="5" stroke-linecap="round" opacity=".85">
+        <path d="M450 200 250 382"/>
+        <path d="M450 200 330 382"/>
+        <path d="M450 200 410 382"/>
+        <path d="M450 200 490 382"/>
+        <path d="M450 200 570 382"/>
+        <path d="M450 200 650 382"/>
+      </g>
+      <g stroke="#9a5735" stroke-width="3" opacity=".7">
+        <path d="M240 326h420"/>
+        <path d="M320 276h260"/>
+      </g>
+      <path d="M240 372h420" stroke="#5c2c1a" stroke-width="12"/>
+      <!-- fascia -->
+      <path d="M128 392 450 180 772 392" fill="none" stroke="#b63a2f" stroke-width="22" stroke-linejoin="miter"/>
+      <path d="M128 392 450 180 772 392" fill="none" stroke="#d65a46" stroke-width="5" transform="translate(0 -9)"/>
+      <path d="M118 400l18-14M782 400l-18-14" stroke="#8d2a22" stroke-width="10" stroke-linecap="round"/>
+      <!-- gutter -->
+      <path d="M118 404h74M708 404h74" stroke="#d7d5cf" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- columns -->
+    <g>
+      <rect x="250" y="372" width="54" height="378" fill="url(#colBrick)"/>
+      <rect x="596" y="372" width="54" height="378" fill="url(#colBrick)"/>
+      <rect x="244" y="368" width="66" height="12" fill="#c46a43"/>
+      <rect x="590" y="368" width="66" height="12" fill="#c46a43"/>
+      <!-- carved mask on right column -->
+      <g transform="translate(623 560)">
+        <path d="M-24 2a24 24 0 0 1 48 0Z" fill="#2d343d"/>
+        <path d="M-20-2a20 20 0 0 1 40 0" fill="none" stroke="#b9c0c7" stroke-width="2" stroke-dasharray="3 3"/>
+        <ellipse cy="6" rx="14" ry="17" fill="#4a5562"/>
+        <path d="M-10 0l6-3M10 0l-6-3" stroke="#e8eaec" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M-6 13h12" stroke="#c84a3a" stroke-width="3" stroke-linecap="round"/>
+        <path d="M-14 18q14 10 28 0" fill="none" stroke="#c0c6cc" stroke-width="2.5"/>
+      </g>
+      <rect x="616" y="520" width="12" height="12" rx="2" fill="#3b7bb3"/>
+    </g>
+
+    <!-- parapet seats with jaali gaps -->
+    <g>
+      <path d="M150 700h104v70H150Z" fill="url(#colBrick)"/>
+      <rect x="144" y="690" width="114" height="14" rx="3" fill="#c06044"/>
+      <rect x="176" y="720" width="38" height="28" fill="#2a1710"/>
+      <path d="M646 700h104v70H646Z" fill="url(#colBrick)"/>
+      <rect x="642" y="690" width="114" height="14" rx="3" fill="#c06044"/>
+      <rect x="682" y="720" width="38" height="28" fill="#2a1710"/>
+    </g>
+
+    <!-- porch floor -->
+    <path d="M232 744h436l32 34H200Z" fill="url(#tile)"/>
+    <path d="M232 744h436" stroke="#6f7a80" stroke-width="2"/>
+
+    <!-- courtyard paving -->
+    <rect x="0" y="770" width="900" height="230" fill="url(#paving)"/>
+    <rect x="0" y="770" width="900" height="40" fill="#3a1d12" opacity=".12"/>
+
+    <!-- semicircular steps -->
+    <g>
+      <ellipse cx="450" cy="852" rx="360" ry="96" fill="#d8cfbe"/>
+      <ellipse cx="450" cy="842" rx="356" ry="92" fill="url(#step)"/>
+      <ellipse cx="450" cy="808" rx="290" ry="70" fill="#d5ccba"/>
+      <ellipse cx="450" cy="798" rx="286" ry="66" fill="url(#step)"/>
+      <ellipse cx="450" cy="776" rx="238" ry="40" fill="url(#tile)"/>
+      <!-- doormats -->
+      <path d="M560 846l70-10 18 24-72 10Z" fill="#7a3a2a"/>
+      <path d="M650 900l96-16 22 30-98 16Z" fill="#b93a2e"/>
+      <path d="M660 906l92-15M666 914l92-15M672 922l92-15" stroke="#3a3f6b" stroke-width="3"/>
+    </g>
+
+    <!-- tulsi in a pot -->
+    <g transform="translate(110 880)">
+      <path d="M-34 0h68l-8 52h-52Z" fill="#b65a3b"/>
+      <rect x="-40" y="-8" width="80" height="12" rx="3" fill="#c86a48"/>
+      <g fill="#4f7a43">
+        <ellipse cx="-14" cy="-26" rx="16" ry="9" transform="rotate(-30 -14 -26)"/>
+        <ellipse cx="14" cy="-30" rx="16" ry="9" transform="rotate(28 14 -30)"/>
+        <ellipse cx="0" cy="-52" rx="14" ry="8" transform="rotate(-80 0 -52)"/>
+        <ellipse cx="-22" cy="-54" rx="13" ry="7" transform="rotate(-50 -22 -54)"/>
+        <ellipse cx="22" cy="-58" rx="13" ry="7" transform="rotate(50 22 -58)"/>
+      </g>
+      <path d="M0-8V-70" stroke="#5d4a32" stroke-width="3"/>
+    </g>
+
+    <!-- soft shadow from the roof onto the steps -->
+    <path d="M290 770 450 760 760 790 700 830 380 820Z" fill="#3a1d12" opacity=".08"/>
+  </g>
+</svg>
