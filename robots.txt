@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://krishna-kamala-heritage-homestay.in/sitemap.xml
+Sitemap: https://krishna-kamala-heritage-homestay.com/sitemap.xml

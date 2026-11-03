@@ -31,7 +31,7 @@ The old `assets/*.jpg` files are no longer used by the page (WebP copies live in
 
 ## Before going live (important for SEO)
 
-1. **Domain.** The site is set up for `https://krishna-kamala-heritage-homestay.in/`
+1. **Domain.** The site is set up for `https://krishna-kamala-heritage-homestay.com/`
    (canonical, Open Graph, Twitter, JSON-LD, `robots.txt`, `sitemap.xml`).
 
 2. **Contact details** (phone, address, map) are in the contact section of
